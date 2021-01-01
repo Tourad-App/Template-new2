@@ -1,0 +1,659 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body,html
+{
+    font-family:Tahoma;
+    width:100%;
+}
+.header
+{
+    width:100%;
+    position:fixed;
+    height:60px;
+    overflow:hidden;
+    background:#fff;
+    box-shadow:0px 0px 15px #8c8c8c;
+}
+.container
+{
+    width:1200px;
+    margin:auto;
+    height:100%;
+}
+
+.header .Adress
+{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.header .Adress h3
+{
+    color:#000;
+    text-transform:uppercase;
+    line-height:60px;
+    font-size:23px;
+    letter-spacing:1px;
+    margin:0px;
+}
+.header .liste
+{
+    width:50%;
+    float:left;
+    height:100%;
+}
+.liste ul
+{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+.liste ul li
+{
+    line-height:60px;
+    float:left;
+    width:120px;
+    text-align:center;
+}
+.liste ul li a
+{
+    text-decoration:none;
+    color:#000;
+    font-size:18px;
+    font-weight:400;
+    letter-spacing:2px;
+}
+.liste ul li:hover a
+{
+    color:#4790ce;
+}
+.main
+{
+    width:100%;
+    height:650px;
+    background-image: url(img/banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-top:10px;
+    padding-bottom:10px;
+    overflow:hidden;
+}
+.main .content
+{
+    width:100%;
+    height:100%;
+    direction:ltr;
+    color:#fff;
+    padding-top:195px;
+}
+.main .content h3
+{
+    font-size:35px;
+    text-transform:capitalize;
+    padding:10px 0px;
+    letter-spacing:3px;
+}
+.main .content h2
+{
+    font-size:60px;
+    text-transform:capitalize;
+    padding:0px 10px 0px  0px;
+}
+.main .content h4
+{
+    font-size:18px;
+    font-weight:bold;
+    color:#fff;
+    padding-bottom:10px;
+}
+.main .content button
+{
+    color:#fff;
+    background:#4790ce;
+    border:none;
+    text-align:center;
+    padding:8px 25px;
+    font-size:20px;
+    text-transform:capitalize;
+    margin-top:10px;
+    cursor:pointer;
+    outline:none;
+}
+
+            /*           About Med         */
+
+.About
+{
+    width:100%;
+    padding-top:80px;
+    padding-bottom:50px;
+    overflow:hidden;
+}
+.About .Text h2
+{
+    color:#000;
+    text-align:center;
+    font-size:30px;
+}
+.About .work
+{
+    width:100%;
+    margin-top:30px;
+}
+.About .work .About-info
+{
+    width:50%;
+    float:left;
+}
+.About .work .About-info h2
+{
+    color:#000;
+    font-size:23px;
+    padding-bottom:20px;
+}
+.About .work .About-info p
+{
+    color:#777;
+    line-height:1.7;
+    font-size:17px;
+    padding-bottom:20px;
+    padding-right:10px;
+    font-weight:400;
+}
+.About .work .img
+{
+    width:50%;
+    float:left;
+}
+
+
+      /*       Our Services   */
+
+.Service
+{
+    width:100%;
+    background:#000;
+    height:auto;
+    padding-top:30px;
+    padding-bottom:30px;
+    color:#fff;
+    text-align:center;
+    overflow:hidden;
+
+}
+.Service .Portfolio
+{
+    width:100%;
+    padding:10px 0px;
+}
+.Service .Portfolio h2
+{
+    color:#fff;
+    font-size:30px;
+    font-weight:bold;
+    
+}
+.Service .Portfolio p
+{
+    color:#fff;
+    font-size:20px;
+    font-weight:400;
+    padding:8px 0px;
+}
+.Service .Our-service
+{
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between
+}
+.Service .Our-service .Carrée-our
+{
+    width:32%;
+    height:250px;
+    background-color:#fff;
+    padding:18px 0px;
+    color:#333;
+}
+
+.Service .Our-service .Carrée-our img
+{
+    width:100px;
+    height:100px;
+}
+.Service .Our-service .Carrée-our h4
+{
+    color:black;
+    font-size:20px;
+    font-weight:400;
+    padding: 5px 0px;
+}
+
+.Service .Our-service .Carrée-our p
+{
+    line-height:1.7;
+    direction:ltr;
+    color:#888;
+}
+.test
+{
+    clear: both;
+}
+
+.Our-Work
+{
+    width:100%;
+    height:auto;
+    padding:20px 0px;
+}
+.Our-Work .frist
+{
+ width:100%;
+ text-align:center;
+color:#000;  
+}
+.Our-Work .frist h2
+{
+    font-size:30px;
+    font-weight:600;
+    padding-bottom:10px;
+    padding-top:40px;
+}
+.Our-Work .frist p
+{
+    color:#333;
+    font-size:18px;
+     padding-bottom:40px;
+}
+.Our-Work .seconde
+{
+    width:100%;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+.images
+{
+    width:100%;
+    overflow:hidden;
+    height:auto;
+    padding-bottom:20px;
+    text-align: center;
+}
+.images .frist-img
+{
+    width:49%;
+    float:left;
+    margin-right:2%;
+}
+.images .seconde-img
+{
+    width:49%;
+    float:left;
+}
+
+.images .seconde-img img
+{
+    width:100%;
+    height:100%;
+}
+
+.images .frist-img img
+{
+    width:100%;
+    height:100%;
+}
+button
+{
+    text-align:center;
+    border:none;
+    background:none;
+    background:#4790ce;
+    padding:15px 30px;
+    color:#fff;
+    margin-top:15px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:400;
+    outline:none;
+}
+.Testimonial
+{
+    width:100%;
+    overflow:hidden;
+    padding-bottom:30px;
+}
+.Testimonial .ISCAEA
+{
+    width:100%;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.Testimonial .ISCAEA h2
+{
+    font-size:35px;
+    color:#000;
+    font-weight:600;
+    padding-bottom:10px;
+}
+
+.Testimonial .ISCAEA p
+{
+    font-size:18px;
+    color:#333;
+    font-weight:400;
+}
+.Testimonial .bgk
+{
+    width:100%;
+    overflow:hidden;
+    margin-top:20px;
+}
+.Testimonial .bgk .div1bg
+{
+    width:49%;
+    margin-right:2%;
+    float:left;
+    padding:50px;
+     background:#4790ce;
+}
+.Testimonial .bgk .div1bg p
+{
+    color:#fff;
+    font-size:18px;
+    line-height:2;
+}
+
+.Testimonial .bgk .div1bg h4
+{
+    color:#fff;
+    font-weight:400;
+    font-size:20px;
+    text-align:right;
+    padding-top:20px;
+    letter-spacing: 2px;
+}
+.Testimonial .bgk .div1bg span
+{
+    color:#fff;
+    font-size:18px;
+    text-align:right;
+    display:block;
+    padding-top:10px;
+}
+.Testimonial .bgk .div2bg
+{
+    width:49%;
+    float:left;
+    padding:50px;
+     background:#4790ce;
+}
+.Testimonial .bgk .div2bg span
+{
+    color:#fff;
+    font-size:18px;
+    text-align:right;
+    display:block;
+    padding-top:10px;
+}
+.Testimonial .bgk .div2bg h4
+{
+    color:#fff;
+    font-weight:400;
+    font-size:20px;
+    text-align:right;
+    padding-top:20px;
+    letter-spacing: 2px;
+}
+.Testimonial .bgk .div2bg p
+{
+    color:#fff;
+    font-size:18px;
+    line-height:2;
+}
+
+.contact
+{
+    width:100%;
+    background:#000;
+    overflow:hidden;
+    margin-top:30px;
+    height:auto;
+    color:white;
+    padding-bottom:60px
+}
+.contact .content-contact
+{
+    width:1200px;
+    margin:auto;
+}
+.contact .contact-info
+{
+    width:100%;
+    padding:25px  0px;
+    text-align:center;
+}
+.contact .contact-info h2
+{
+    font-size:30px;
+    font-weight:bold;
+}
+.contact .contact-info p
+{
+    color:#fff;
+    font-size:20px;
+    padding:15px 0px;
+}
+.contact .form
+{
+ width:100%;
+overflow:hidden;
+}
+
+.contact .form .form-icons
+{
+ width:50%;
+float:left;
+/*background:red;*/
+overflow: hidden;
+}
+.contact .form .form-icons h2
+{
+    font-size:23px;
+    color:#fff;
+    font-weight:400;
+}
+.contact .form .form-icons .Info-bar
+{
+    width:100%;
+    height:130px;
+/*    background:red;*/
+    padding-left:15px;
+    padding-top:15px;
+}
+.contact .form .form-icons .Info-bar i
+{
+    float:left;
+    margin-right:3%;
+    margin-top:6px;
+    font-size:18px;
+     cursor:pointer;
+}
+.contact .form .form-icons .Info-bar .grande
+{
+    float:left;
+}
+.contact .form .form-icons .Info-bar .grande span
+{
+    display:block;
+    line-height:1.5;
+    color:#ddd;
+    font-size:17px;
+}
+.contact .form .form-icons .Info-bar .grande span:nth-child(1)
+{
+    color:#4beadc;
+    font-weight:450;
+}
+.contact .form .form-icons .contact-phone
+{
+    width:100%;
+    height:100px;
+/*    background:red;*/
+    padding-left:15px;
+    padding-top:15px;
+}
+.contact .form .form-icons .contact-phone i
+{
+    float:left;
+    margin-right:3%;
+    font-size:18px;
+    margin-top:6px;
+     cursor:pointer;
+}
+.contact .form .form-icons .contact-phone .phone-info
+{
+    float:left;
+}
+.contact .form .form-icons .contact-phone .phone-info span
+{
+    display:block;
+    line-height:1.8;
+    font-size:17px;
+    color:#ddd;
+}
+.contact .form .form-icons .contact-phone .phone-info span:nth-child(1)
+{
+    color:#4beadc;
+    font-weight:450;
+}
+.contact .form .form-icons .Contact-Eamil
+{
+    width:100%;
+    height:100px;
+    padding-left:15px;
+    padding-top:15px;
+}
+.contact .form .form-icons .Contact-Eamil i
+{
+    float:left;
+    margin-right:3%;
+    font-size:18px;
+    margin-top:6px;
+     cursor:pointer;
+}
+.contact .form .form-icons .Contact-Eamil .Email
+{
+    float:left;
+}
+.contact .form .form-icons .Contact-Eamil .Email span
+{
+    display:block;
+    line-height:1.8;
+    font-size:17px;
+    color:#ddd;
+}
+.contact .form .form-icons .Contact-Eamil .Email span:nth-child(1)
+{
+    color:#4beadc;
+    font-weight:450;
+}
+.contact .form .Contact-Message
+{
+    width:50%;
+    float:left;
+/*    background-color:blue;*/
+}
+.contact .form .Contact-Message form
+{
+    padding:10px 0px;
+}
+.contact .form .Contact-Message span
+{
+    display:block;
+    font-size:23px;
+    font-weight:400;
+    margin-bottom:8px;
+    
+}
+.contact .form .Contact-Message form input[type="text"],.contact .form .Contact-Message form input[type="email"]
+{
+    width:100%;
+    color:white;
+    height:35px;
+    padding-left:13px;
+    outline:none;
+    margin-bottom:15px;
+    border:none;
+    background:#9a9999;
+    font-size:17px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.contact .form .Contact-Message form input::placeholder
+{
+    color:#fff;
+}
+.contact .form .Contact-Message form  textarea
+{
+    width:100%;
+    height:200px;
+    background:#9a9999;
+    border:none;
+    outline:none;
+    padding:12px;
+    font-size:18px;
+    color:#fff;
+    font-weight:400;
+}
+.contact .form .Contact-Message form  textarea::placeholder
+{
+    color:white;
+}
+.contact .form .Contact-Message form input[type="submit"]
+{
+    border:none;
+    outline:none;
+    background:none;
+    background:#4790ce;
+    padding:10px 15px;
+    color:#fff;
+    width:100px;
+    font-size:17px;
+    text-transform:uppercase;
+    margin-top:15px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
